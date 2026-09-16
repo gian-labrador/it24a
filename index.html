@@ -44,9 +44,9 @@
             const doneBtn = createDoneButton(li); 
             li.appendChild(doneBtn);
 
-            // //Call createEditbutton() function
-            // const editBtn = createEditButton(li, li.taskSpan);
-            // li.appendChild(editBtn);
+            //Call createEditbutton() function
+            const editBtn = createEditButton(li, li.taskSpan);
+            li.appendChild(editBtn);
 
             // //Call createDeletebutton() function
             // const deleteBtn = createDeleteButton(li);
@@ -75,27 +75,26 @@
 
         }
 
+        function createEditButton(li, taskSpan){ 
+            const editBtn = document.createElement("button"); 
+            editBtn.textContent = "Edit"; 
+            editBtn.style.marginLeft = "8px"; 
+            editBtn.onclick = () => handleEditClick(li); 
+            return editBtn; 
+        } 
 
-        // function createEditButton(li, taskSpan){ 
-        //     const editBtn = document.createElement("button"); 
-        //     editBtn.textContent = "Edit"; 
-        //     editBtn.style.marginLeft = "8px"; 
-        //     editBtn.onclick = () => handleEditClick(li); 
-        //     return editBtn; 
-        // } 
 
+        function handleEditClick(li){ 
+            const currentText = li.firstChild.textContent.trim(); 
+            const newText = prompt("Edit your task", currentText); 
 
-        // function handleEditClick(li){ 
-        //     const currentText = li.firstChild.textContent.trim(); 
-        //     const newText = prompt("Edit your task", currentText); 
-
-        //     if(newText !== null && newText.trim() !== ""){ 
-        //         li.firstChild.textContent = newText.trim(); 
-        //         alert("Updated task"); 
-        //     }else{ 
-        //         alert("No changes made"); 
-        //     }
-        // }
+            if(newText !== null && newText.trim() !== ""){ 
+                li.firstChild.textContent = newText.trim(); 
+                alert("Updated task"); 
+            }else{ 
+                alert("No changes made"); 
+            }
+        }
 
 
         // function createDeleteButton(li){

@@ -38,7 +38,20 @@
             li.textContent = taskText;
 
             document.getElementById('taskList').appendChild(li);
+
+            const doneBtn = createDoneButton(li); 
+            li.appendChild(doneBtn);
         }
+
+        function createDoneButton(taskItem) {
+            const doneBtn = document.createElement('button');
+            doneBtn.textContent = 'Done';
+            doneBtn.onclick = function() {
+                taskItem.remove();
+            };
+            return doneBtn;
+        }
+
     </script>
 </body>
 </html>

@@ -4,14 +4,14 @@
         "title" : "SWDC",
         "lat" :8.360176,
         "lng" : 124.867541,
-        "image" : "https://i.ibb.co/0j6Z7gM/SWDC.png"
-    },
-
+        "image" : "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWxhZ2h2MDAzOWplbmZnMXFrMzl4bHRvZm9zajhzbm12bThhbmg0MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/P53TSsopKicrm/giphy.gif"
+    }
+,
     {
         "name" : "NBSC Covered Court",
         "title" : "NBSC CC",
         "lat" :8.359992,
         "lng" : 124.868861,
-        "image" : "https://i.ibb.co/0j6Z7gM/NBSC-CC.png"
+        "image" : "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cHJqbzFpaDdiYXY3MTRsZ3J4enR5YjE2dG10eTF6c29oNWxrenJ3NCZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/w7GmOB1krzjbl8icfF/giphy.gif"
     }
 ]

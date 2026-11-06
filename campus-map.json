@@ -1,0 +1,17 @@
+[
+    {
+        "name" : "Student Welfare and Development Center",
+        "title" : "SWDC",
+        "lat" :8.360176,
+        "lng" : 124.867541,
+        "image" : "https://i.ibb.co/0j6Z7gM/SWDC.png"
+    },
+
+    {
+        "name" : "NBSC Covered Court",
+        "title" : "NBSC CC",
+        "lat" :8.359992,
+        "lng" : 124.868861,
+        "image" : "https://i.ibb.co/0j6Z7gM/NBSC-CC.png"
+    }
+]
